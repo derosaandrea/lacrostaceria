@@ -26,7 +26,9 @@ $action   = action::sortPages($settings->flip);
       <?php if($children->count() && $settings->sortable): ?>
       <a class="button sort" href="<?php echo dourl('content', 'edit-pages') ?>"><?php echo l::get('pages.sort') ?></a>
       <?php endif ?>
+      <?php if(!$panel->isHome): ?>
       <a class="button add" title="<?php echo l::get('pages.add') ?>" href="<?php echo dourl('content', 'add-page') ?>"><?php echo l::get('pages.add') ?></a>
+      <?php endif ?>
     </span>
     <?php endif ?>
 

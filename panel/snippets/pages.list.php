@@ -13,10 +13,12 @@ if($settings->flip && $type == 'visible') $children = $children->flip();
     <div class="handle"></div>
     <input type="hidden" name="<?php echo $type ?>[]" value="<?php echo $child->uid() ?>" />
     <?php else: ?>
+    <?php if(!$panel->isHome): ?>
     <a href="<?php echo dourl('content', 'delete-page') ?>/?uid=<?php echo $child->uid() ?>" class="remove"><?php echo l::get('pages.delete') ?></a>
     <?php endif ?>
+    <?php endif ?>
 
-    <a href="<?php echo $child->url() ?>" class="title"><?php echo html(($child->title() != '') ? $child->title() : $child->uid()) ?></a>
+    <a href="<?php echo $child->url() ?>" class="title <?php if($panel->isHome): ?>no-padding<?php endif ?>"><?php echo html(($child->title() != '') ? $child->title() : $child->uid()) ?></a>
   </li>
   <?php $n++; endforeach ?>
   <li class="empty<?php echo ($n>0) ? ' hide' : '' ?>"><em><?php echo l::get('pages.no.' . $type) ?></em></li>

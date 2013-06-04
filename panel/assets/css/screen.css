@@ -341,6 +341,9 @@ body:before {
   padding-left: 25px;
   background: url(../images/add.png) no-repeat left center;
 }
+.subpages li a.no-padding {
+  padding-left: 0px;
+}
 .subpages li .handle {
   position: absolute;
   left: 0;
