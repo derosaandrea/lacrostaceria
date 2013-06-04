@@ -1,0 +1,31 @@
+﻿Title: Secondi piatti
+
+----
+
+Title_ita: Secondi Piatti
+
+----
+
+Text_ita: La Catalana è composta da pomodorini datterini, patate novelle, rucola e un’idea di cipolla di Tropea
+
+Catalana di Astice
+Catalana di Aragosta
+Catalana Mista (Astice, Scampi, Mazzancolle)
+Catalana di Granchio
+Catalana di Scampi
+Catalana di Mazzancolle
+
+----
+
+Title_en: Main Courses
+
+----
+
+Text_en: Catalana consists of tomatoes, potatoes, arugula and red onion
+
+Catalana of Lobster
+Catalana of King Lobster
+Catalana Mixed (Lobster, Shrimps, Prawns)
+Catalana of Crab
+Catalana of Shrimps
+Catalana of Prawns

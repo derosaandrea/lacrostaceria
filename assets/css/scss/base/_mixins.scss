@@ -1,0 +1,48 @@
+/**
+ * Transforms the target element
+ * in a circle of the give radius
+ */
+@mixin circle($r: 25px) {
+  @include border-radius($r);
+  display: inline-block;
+  padding: 0;
+  width: $r * 2;
+  height: $r * 2;
+  text-align: center;
+}
+
+/**
+ * Transforms the target element
+ * in a triangle. Accepts direction, radius and color
+ * as parameters.
+ * @param $direction   [n, e, s, w]
+ * @param $r           radius of the semi-circle 
+ *                     at the base of the triangle
+ * @param $color       
+ */
+@mixin triangle($direction: e, $r: 5px, $color: #000) {
+  display: block;
+  width: 0;
+  height: 0;
+  padding: 0;
+  @if $direction == n {
+    border-width: 0 $r $r $r;
+    border-color: transparent transparent $color transparent;
+    border-style: none solid solid solid;
+  }
+  @if $direction == e {
+    border-width: $r 0 $r $r;
+    border-color: transparent transparent transparent $color;
+    border-style: solid none solid solid;
+  }
+  @if $direction == s {
+    border-width: $r $r 0 $r;
+    border-color: $color transparent transparent transparent;
+    border-style: solid solid none solid;
+  }
+  @if $direction == w {
+    border-width: $r $r $r 0;
+    border-color: transparent $color transparent transparent;
+    border-style: solid solid solid none;
+  }
+}

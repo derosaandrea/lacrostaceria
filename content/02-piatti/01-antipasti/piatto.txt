@@ -1,0 +1,29 @@
+﻿Title: Antipasti
+
+----
+
+Title_ita: Antipasti
+
+----
+
+Text_ita: Antipasto La Crostaceria ( Misto di Cotti )
+Insalatina di Gambero rosso di Sicilia, carciofi e Reggiano “36m.”
+Tartare di Tonno con arancia rossa
+Carpaccio di Gamberi  Violetti, frutta di stagione e Reggiano “36m.”
+Insalata di Polpo con olive taggiasche, julienne di carote e sedano
+Parmigianina di Pesce Spada
+Antipasto di Marinato
+
+----
+
+Title_en: Starters
+
+----
+
+Text_en: Appetizer La Crostaceria (Mix of Cooked Fish)
+Salad of red Shrimps of Sicily, artichokes and Parmigiano 36 mouths 							
+Tuna Tartar with red orange
+Carpaccio of Shrimps, fruits and Parmigiano 36 mouths
+Octopus Salad with potatoes, carrots and celery
+Parmigiana of Swordfish
+Appetizer of Marinated Fish

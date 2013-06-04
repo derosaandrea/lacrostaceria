@@ -1,0 +1,17 @@
+﻿Title: Nuovo Evento
+
+----
+
+Title_ita: aaaa
+
+----
+
+Text_ita: aaaaa
+
+----
+
+Title_en: aaaaa
+
+----
+
+Text_en: aaaa

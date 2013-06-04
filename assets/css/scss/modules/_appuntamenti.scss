@@ -1,0 +1,19 @@
+.event {
+	margin-bottom: 24px;
+	.appuntamento_title {
+		line-height: 1em;
+	}
+	.appuntamento_text {
+		margin-bottom: 12px;
+	}
+}
+.addthis_toolbox {
+	a {
+		text-decoration: none;
+		&:hover {
+			span {
+				text-decoration: underline;
+			}
+		}
+	}
+}

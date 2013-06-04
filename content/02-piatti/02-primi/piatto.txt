@@ -1,0 +1,29 @@
+﻿Title: Primi piatti
+
+----
+
+Title_ita: Primi piatti
+
+----
+
+Text_ita: Paccheri di Gragnano all’Aragosta
+Spaghetti alla chitarra con Vongole Veraci,asparagi e datterini
+Risotto con Scampi arrosto,lime e menta
+Linguine all’Astice, pomodorini, aglio, olio e peperoncino
+Trofie con pesce Spada, zucchine, datterini e menta
+Linguine Amalfi con Pezzogna,basilico al profumo di limone
+Gnocchetti di patate con Crostacei e Pesci del Mediterraneo
+
+----
+
+Title_en: Pasta
+
+----
+
+Text_en: Paccheri with King Lobster
+Spaghetti with Clams, asparagus and tomatoes
+Rice with roasted Shrimps, lime and mint
+Linguine with Lobster, garlic, oil, tomatoes and parsley
+Trofie with Swordfish, zucchini, mint and tomatoes
+Linguine “Amalfi” with Pezzogna, basil and lime
+Gnocchi with Mix of Seafood

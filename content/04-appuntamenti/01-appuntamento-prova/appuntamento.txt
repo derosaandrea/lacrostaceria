@@ -1,0 +1,17 @@
+﻿Title: Appuntamento prova
+
+----
+
+Title_ita: Altro appuntamento
+
+----
+
+Text_ita: Testo appuntamento
+
+----
+
+Title_en: Event n4
+
+----
+
+Text_en: Eventually

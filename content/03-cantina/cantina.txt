@@ -1,0 +1,23 @@
+Title: La Cantina
+----
+Title_ita: La Cantina
+----
+Intro_ita: La Crostaceria propone una vasta scelta di vini italiani e internazionali:
+----
+Title_en: Wine Cellar
+----
+Intro_en: The Crostaceria offers a wide selection of Italian and international wines:
+----
+Lista_vini:
+- Alcamo Chardonnay Doc
+- Alghero Bianco Doc
+- Alto Adige Traminer Aromatico Doc
+- Ansonica Costa dell’Argentario Doc
+- Assisi Rosato Doc
+- Campi Flegrei Bianco Doc
+- Cesanese di Affile Frizzante Doc
+- Colli della Sabina Bianco Doc
+- Colli Perugini Grechetto Doc
+- Offida Pecorino Doc
+- Salaparuta Cataratto Doc
+- Vernaccia di San Gimignano Riserva Doc

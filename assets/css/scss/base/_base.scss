@@ -1,0 +1,65 @@
+
+
+$la_crostaceria_bk: '../img/images/bk_home.jpg';
+$i_piatti_bk: '../img/images/bk_piatti.jpg';
+$la_cantina_bk: '../img/images/bk_cantina.jpg';
+$appuntamenti_bk: '../img/images/bk_appuntamenti.jpg';
+$rione_bk: '../img/images/bk_rione.jpg';
+$prenotazioni_bk: '../img/images/bk_prenotazioni.jpg';
+
+
+//body {background: url($back) no-repeat;}
+
+#top-bar, #bottom-bar footer{ background-color:rgba(83,36,35,0.7);}
+
+
+.left_col {
+	//background:#ff0000;
+	}
+.right_col {
+	//background:#339999;
+	}
+
+nav{color:$cream-color;
+	li{background:rgba(255,255,255,0.1);
+		cursor:pointer;
+		cursor:hand;
+		text-transform: uppercase;
+		&.ni_1{background:rgba(255,255,255,0.2);}
+		&.ni_2{background:rgba(255,255,255,0.3);}
+		&.ni_3{background:rgba(255,255,255,0.25);}
+		&.ni_4{background:rgba(255,255,255,0.15);}
+		&.ni_5{background:rgba(255,255,255,0.05);}
+		&:hover{background:rgba(255,255,255,0.0);}
+	}
+}
+
+section {min-height:1000px;width: 100%;position: relative; padding-top: 1px;padding-bottom: 200px;}
+section article{position: static;margin-top:200px;}
+
+#i_piatti{
+	background: url($i_piatti_bk) 50% 0 no-repeat fixed;
+	background-size: cover;
+}
+#la_crostaceria{
+	background:url($la_crostaceria_bk)50% 0 no-repeat fixed;
+	background-size: cover;
+}
+#la_cantina{
+	background:url($la_cantina_bk)50% 0 no-repeat fixed;
+	background-size: cover;
+}
+#appuntamenti{
+	background:url($appuntamenti_bk)50% 0 no-repeat fixed;
+	background-size: cover;
+}
+#rione{
+	background:url($rione_bk)50% 0 repeat fixed;
+	background-size: cover;
+}
+#prenotazioni{
+	background:url($prenotazioni_bk)50% 0 no-repeat fixed;
+	background-size: cover;
+}
+
+#cont{margin:0 auto;}

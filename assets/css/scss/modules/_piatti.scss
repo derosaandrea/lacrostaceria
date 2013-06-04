@@ -1,0 +1,63 @@
+#i_piatti {
+	article {
+		position: relative;
+	}
+}
+
+.carousel-indicators {
+	position: static;
+	margin-bottom: 24px;
+	li {
+		width: auto;
+		height: auto;
+		background: none;
+		text-indent: 0;
+		border-right: 1px solid $maroon-color;
+		@include border-radius(0);
+		padding: 0px 8px;
+		margin: 0px;
+		cursor: pointer;
+		&.active {
+			background: none;
+			text-decoration: underline;
+		}
+		&:first-child {
+			margin-left: 0px;
+			padding-left: 0px;
+		}
+		&:last-child {
+			border-right: 0px;
+			margin-right: 0px;
+			padding-right: 0px;
+		}
+	}
+}
+
+.carousel-control {
+	display: block;
+	position: absolute;
+	top: 120px;
+	text-decoration: none;
+	border: none;
+	background: $maroon-color;
+	width: 25px;
+	height: 25px;
+	line-height: 23px;
+	text-align: center;
+	font-size: 24px;
+	margin: 0;
+	&.c_right {
+		right: 15px;
+		left: auto;
+	}
+	&.c_left {
+		left: 15px;
+		right: auto;
+	}
+}
+.piatti {
+	line-height: 1.6em;
+	&.en {
+		font-style: italic;
+	}
+}
